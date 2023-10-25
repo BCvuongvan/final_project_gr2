@@ -62,6 +62,7 @@ public class AccountServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         request.getRequestDispatcher("account.jsp").forward(request, response);
+        System.out.println("test");
     }
 
     /**
