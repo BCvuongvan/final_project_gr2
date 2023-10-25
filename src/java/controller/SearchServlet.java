@@ -37,6 +37,8 @@ public class SearchServlet extends HttpServlet {
             String txtSearch = request.getParameter("search");
             DAO db = new DAO();
             
+            System.out.println("ABC");
+            
             //Tạo biến index
             String indexString = request.getParameter("index");
             int index = Integer.parseInt(indexString);
