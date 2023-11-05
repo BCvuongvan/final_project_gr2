@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="navbar-nav w-100">
-            <a href="admin" class="nav-item nav-link active"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="admin" class="nav-item nav-link"><i class="fa-solid fa-house"></i>Home</a>
             <a href="brandmanagement" class="nav-item nav-link"><i class="fa-solid fa-warehouse"></i>brand management</a>
             <a href="productmangement?id=" class="nav-item nav-link"><i class="fa-solid fa-list-check"></i>Product Management</a>
             <a href="accountManagement" class="nav-item nav-link"><i class="fa-solid fa-user-gear"></i>account management</a>

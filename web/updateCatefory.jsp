@@ -35,7 +35,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/styleadmin.css" rel="stylesheet">
-
+        <<link rel="stylesheet" href="./css/style.css"/>
         <!-- icon -->
         <script src="https://kit.fontawesome.com/8143c9cd7e.js" crossorigin="anonymous"></script>
     </head>
@@ -52,19 +52,19 @@
                 <!-- Navbar End -->
 
                 <!-- Recent Sales Start -->
-                <div class="container-fluid pt-4 px-4">
-                    <div class="form_input">
+                <div class="container_from-create">
+                    <div class="form_input-create">
                         <h1>Update Category</h1>
                         <c:set var="cate" value="${requestScope.Category}"/>
                         <form action="updateCategory" method="post">
-                            <h5>Enter ID: <input name="id" type="text" placeholder="your ID" readonly value="${cate.id}"></h5>
-                            <h5>Enter name: <input name="name" type="text" placeholder="full name" value="${cate.name}"></h5>
-                            <h5>Enter describe: <input name="describe" type="text" placeholder="text" value="${cate.describe}"></h5>
-                            <input class="submit" type="submit" value="Update"/>
+                            <h5>Enter ID </h5><input name="id" type="text" placeholder="your ID" readonly value="${cate.id}"></h5>
+                            <h5>Enter name </h5><input name="name" type="text" placeholder="full name" value="${cate.name}"></h5>
+                            <h5>Enter describe </h5><input name="describe" type="text" placeholder="text" value="${cate.describe}"></h5>
+                            <input class="submit-updatee" type="submit" style="margin-left: 30%" value="Update"/>
                         </form>
                     </div>
                     <div class="Back-button"> 
-                        <a class="Back-button-text" href="brandmanagement">Back</a>
+                        <a class="Back-button-text" style="color:white ; font-size: 22px; padding-left: 5px;border-bottom: 1px solid white" href="brandmanagement">Back</a>
                     </div>
                 </div>
                 <!-- Recent Sales End -->

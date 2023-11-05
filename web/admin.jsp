@@ -52,10 +52,10 @@
                 <!-- Navbar End -->     
 
                 <div class="container-fluid pt-4 px-4">
-                    <img class="rounded-circle me-lg-2" src="assets/picture/l60Hf-150x150.png" alt="" style="width: 40px; height: 40px;">
-                    <img class="rounded-circle me-lg-2" src="assets/picture/${sessionScope.account.picture}" alt="" style="width: 40px; height: 40px;">
-                    <img src="assets/picture/z4824592806885_ad9f9811c0721edca1e5be76a0f3e47a.jpg" alt="alt"/>
-                    <img src="assets/picture/z4824592819097_9e3d232e13f79881f692edecc263be34.jpg" alt="alt"/>
+
+                    <div class="container-fluid pt-4 px-4" style="padding: 0; margin: 0">
+                        <img style="width: 100%" src="assets/banner/Galaxy-S10e_S10_S10-combo1.jpg" alt="alt"/>
+                    </div> 
                 </div>             
 
             </div>

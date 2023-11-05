@@ -949,3 +949,10 @@ form a{
         opacity: 1;
     }
 }
+.Back-button:hover {
+    color: #60b2fe;
+}
+.submit-updatee:hover {
+    color: #60b2fe ;
+    
+}
